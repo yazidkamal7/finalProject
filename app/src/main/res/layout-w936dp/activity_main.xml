@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:layout_width="370dp"
+        android:layout_height="709dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="42dp"
+        android:layout_marginBottom="22dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="371dp"
+            android:layout_height="93dp"
+            android:layout_gravity="center"
+            android:text="                     LOGIN "
+            android:textSize="30dp"/>
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="346dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/userName"
+                style="@style/EdittextThem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Your Email"
+                android:inputType="textPersonName"
+                android:minHeight="48dp" />
+
+            <EditText
+                android:id="@+id/userPassword"
+                style="@style/EdittextThem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:minHeight="48dp" />
+
+            <Button
+                android:id="@+id/logInButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:textColor="#FFFFFF"
+                android:onClick="loginMethod"
+                android:text="Login"
+                android:textSize="24sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:text="Not a member yet?"
+                    android:textColor="#fff"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:id="@+id/signUpButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:onClick="signupMethod"
+                    android:text="Sign Up"
+                    android:textColor="#fff"
+                    android:textSize="24sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Admin.AdminMainActivity"
+    tools:showIn="@layout/activity_admin_main">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="14dp"
+        android:layout_marginRight="14dp"
+        android:layout_marginBottom="21dp"
+        android:layout_marginTop="11dp"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:text="Hotel Admin Center" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginBottom="25dp"
+            android:orientation="horizontal"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginBottom="25dp"
+            android:orientation="horizontal">
+
+            <TextView
+
+
+                android:layout_width="218dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Single Rooms Number:" />
+
+            <TextView
+                android:id="@+id/SingleRoomNum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:text="0" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="25dp"
+            android:orientation="horizontal">
+
+            <TextView
+
+
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Double Rooms Number:" />
+
+            <TextView
+                android:id="@+id/DoubleRoomNum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:text="0" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginBottom="25dp"
+            android:orientation="horizontal">
+
+            <TextView
+
+
+                android:layout_width="221dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Delux Rooms Number:" />
+
+            <TextView
+                android:id="@+id/DeluxNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:text="0" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginBottom="25dp"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:layout_width="225dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Single Room Reserved :" />
+
+            <TextView
+                android:id="@+id/SingleReserved"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:text="0" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginBottom="25dp"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:layout_width="224dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Double Room Reserved :" />
+
+            <TextView
+                android:id="@+id/DoubleReservd"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="0" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:layout_width="226dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Delux Room Reserved :" />
+
+            <TextView
+                android:id="@+id/DeluxReserved"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#000000"
+                android:text="0" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/adminfab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/fab_margin"
+            android:layout_weight="1"
+            android:onClick="AdminMenu"
+            android:background=""
+            android:textColor="#000000"
+            android:text="Open Admin Menu"
+            app:srcCompat="@drawable/ic_baseline_add_24" />
+
+        <Button
+            android:id="@+id/adminfab2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/fab_margin"
+            android:layout_weight="1"
+            android:onClick="GoToHomePage"
+            android:text="Go To Home Page"
+            android:background=""
+            android:textColor="#000000"
+            app:srcCompat="@drawable/ic_baseline_add_24" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

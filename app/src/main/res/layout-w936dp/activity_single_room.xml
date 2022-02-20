@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <RelativeLayout tools:context=".HotelRooms.SingelRooms.SingleRoomActivity" android:layout_height="match_parent" android:layout_width="match_parent" xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+
+                    android:layout_width="245dp"
+                    android:textSize="21dp"
+                    android:id="@+id/txtView5"
+                    android:layout_height="wrap_content"
+                    android:text="Available Single Rooms"
+                    />
+
+                <TextView
+
+
+                    android:textSize="21dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/numOfRooms"
+
+                    />
+            </LinearLayout>
+
+            <ListView
+                android:id="@+id/listOfSingleRooms"
+                android:layout_width="match_parent"
+                android:layout_height="625dp"
+
+                android:layout_marginStart="6dp"
+                android:layout_margin="6dp"
+                android:layout_marginEnd="6dp"
+                android:background="#C0C0C0"
+                android:layout_marginTop="6dp"
+                />
+        </LinearLayout>
+
+</RelativeLayout>

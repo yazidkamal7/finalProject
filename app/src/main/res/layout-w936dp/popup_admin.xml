@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:gravity="center"
+    tools:context=".Admin.AdminMainActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="5dp">
+
+        <LinearLayout
+            android:layout_width="904dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+
+            <TextView
+                android:id="@+id/titleText"
+                style="@style/LabelStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="12dp"
+                android:text="Admin Menu"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <Button
+                android:id="@+id/addAdminBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/purple_200"
+                android:onClick="addNewAdmin"
+                android:text="Add New Admin" />
+
+            <Button
+                android:id="@+id/RemoveAdminBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/purple_500"
+                android:onClick="RemoveNewAdmin"
+                android:text="Remove Admin" />
+
+            <Button
+                android:id="@+id/addRoomBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/purple_200"
+                android:onClick="addNewRoom"
+                android:text="Add New Room" />
+
+
+            <Button
+                android:id="@+id/messageButtonNo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/purple_500"
+                android:text="Cancle" />
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

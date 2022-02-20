@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">FinalProjects</string>
+    <string name="add_new_emploees">Add New Emploees</string>
+    <string name="name_of_employess">Name of employess</string>
+    <string name="user_name_of_employess">user name of employess</string>
+    <string name="password">Password</string>
+    <string name="sallary">Sallary</string>
+    <string-array name="spinerRoomType">
+
+        <item>Single</item>
+        <item>Double</item>
+        <item>Deluxe</item>
+
+    </string-array>
+    <string name="title_activity_login_admin">LoginActivityAdmin</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+</resources>
